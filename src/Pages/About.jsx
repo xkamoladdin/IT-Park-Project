@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 // import { Navlink } from 'react-router-dom'
 import human1 from '../assets/about_human1.png'
 import play from '../assets/hover.png'
-import about1 from '../assets/about_human2.png'
+import about2 from '../assets/about_human2.png'
 
 export default class About extends Component {
   render() {
