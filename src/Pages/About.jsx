@@ -10,7 +10,7 @@ export default class About extends Component {
       <div className='container'>
 
 
-        <div className='flex justify-between mt-[80px]'>
+        <div className='flex justify-between mt-[80px] mb-[180px]'>
         <div className='max-w-[600px] w-full'>
           <h2 className='text-[#1E212C] text-[26px] font-lato font-bold'>About Us</h2>
           <h1 className='text-[#1E212C] font-lato font-black text-[46px] mt-[8px] mb-[48px]'>Createx Online School</h1>
