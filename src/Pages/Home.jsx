@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import Btn from '../assets/hover.png'
 import Illustration from '../assets/illustration.png'
 import { NavLink } from "react-router-dom";
+import WhoWeAre from '../Components/who_we_are';
 
 export default class Home extends Component {
   render() {
     return (
+      <div>
       <div className='bg-[#f7bf9f] h-screen flex items-center flex-col justify-center pt-[128px]'>
         <div className='container flex justify-between items-center'>
           <div className=''>
@@ -49,6 +51,8 @@ export default class Home extends Component {
             <span className='w-2 h-2 bg-[#FF3F3A] rounded-md ml-[66px]'></span>
           </span>
         </div>
+      </div>
+        <WhoWeAre />
       </div>
     )
   }
