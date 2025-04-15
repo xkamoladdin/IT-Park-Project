@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Talk from "../Components/We_will_talk_abt/talk.jsx"
 import Katy from "../Components/About_Katy/about.jsx"
+import Eve from "../Components/Benefit_from the_event/event.jsx"
+import Sub from "../Components/Events_sub/sub.jsx"
 export default class Events extends Component {
   render() {
     return (  
@@ -11,6 +13,8 @@ export default class Events extends Component {
         </div>
         <Talk/>
         <Katy/>
+        <Eve/>
+        <Sub/>
       </div>
     )
   }
