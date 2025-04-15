@@ -4,7 +4,8 @@ import Logo from '../assets/logo.png'
 
 function Navigation() {
   return (
-    <nav className="container py-[20px] flex justify-between">
+    <div className="bg-[#f7bf9f]">
+    <nav className="container py-[20px] flex justify-between items-center">
 
       <NavLink exact to="/" activeClassName="active">
         <img src={Logo} alt="" />
@@ -30,11 +31,12 @@ function Navigation() {
         <NavLink className='font-lato font-bold text-white px-[40px] leading-[52px] rounded bg-primary' to="/about" activeClassName="active">
           Get consultation
         </NavLink>
-        <NavLink to="/login" activeClassName="active">
+        <NavLink className='font-lato font-bold text-[#424551]' to="/login" activeClassName="active">
           Log in / Register
         </NavLink>
       </span>
     </nav>
+    </div>
   );
 }
 
