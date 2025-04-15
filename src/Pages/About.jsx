@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 // import { Navlink } from 'react-router-dom'
-import human1 from '../assets/about_human1.png'
+import about1 from '../assets/about_human1.png'
+import about2 from '../assets/about_human2.png'
+
 
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div >
 
-
-        <div className='container flex justify-between mt-[80px]'>
+      <div className='container'>
+        <div className='flex justify-between mt-[80px]'>
         <div className='max-w-[600px] w-full'>
           <h2 className='text-[#1E212C] text-[26px] font-lato font-bold'>About Us</h2>
           <h1 className='text-[#1E212C] font-lato font-black text-[46px] mt-[8px] mb-[48px]'>Createx Online School</h1>
@@ -20,9 +22,14 @@ export default class About extends Component {
           </div>
         </div>
         <div className='flex items-center'>
-          <img src={human1} alt="" />
+          <img src={about1} alt="" />
         </div>
         </div>
+
+        <div>
+
+        </div>
+      </div>
 
       </div>
     )
