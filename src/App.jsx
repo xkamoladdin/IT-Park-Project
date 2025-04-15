@@ -5,6 +5,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Courses from "./Pages/Courses";
 import Contacts from "./Pages/Contact";
+import Events from "./Pages/Events";
+import Blog from "./Pages/Blog";
 import NotFound from "./Pages/NotFound";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about" element={<About />} />        
         <Route path="/courses" element={<Courses />} />        
         <Route path="/contacts" element={<Contacts />} />        
+        <Route path="/events" element={<Events />} />        
+        <Route path="/blog" element={<Blog />} />        
         {/* 404 sahifa uchun */}
         <Route path="*" element={<NotFound />} />
       </Routes>
