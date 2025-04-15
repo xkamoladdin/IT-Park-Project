@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 // import { Navlink } from 'react-router-dom'
-import about1 from '../assets/about_human1.png'
-import about2 from '../assets/about_human2.png'
-
+import human1 from '../assets/about_human1.png'
+import play from '../assets/hover.png'
+import about1 from '../assets/about_human2.png'
 
 export default class About extends Component {
   render() {
     return (
-      <div >
-
       <div className='container'>
+
+
         <div className='flex justify-between mt-[80px]'>
         <div className='max-w-[600px] w-full'>
           <h2 className='text-[#1E212C] text-[26px] font-lato font-bold'>About Us</h2>
@@ -22,14 +22,26 @@ export default class About extends Component {
           </div>
         </div>
         <div className='flex items-center'>
-          <img src={about1} alt="" />
+          <img src={human1} alt="" />
         </div>
         </div>
 
+        <div className='flex justify-between items-center'>
         <div>
-
+          <span className='flex items-center gap-[16px] mb-[32px]'>
+            <img src={play} alt="" />
+            <p>Watch Video</p>
+          </span>
+          <img src={about2} alt="" />
         </div>
-      </div>
+        <div>
+        <p className='text-[#1E212C] text-[18px] font-bold flex items-center gap-[16px]'><span className='text-[#FF3F3A] text-[48px] font-black font-lato'>1200</span>students graduated</p>
+        <p className='text-[#1E212C] text-[18px] font-bold flex items-center gap-[16px]'><span className='text-[#FF3F3A] text-[48px] font-black font-lato'>84</span>completed courses</p>
+        <p className='text-[#1E212C] text-[18px] font-bold flex items-center gap-[16px]'><span className='text-[#FF3F3A] text-[48px] font-black font-lato'>16</span>qualified tutors</p>
+        <p className='text-[#1E212C] text-[18px] font-bold flex items-center gap-[16px]'><span className='text-[#FF3F3A] text-[48px] font-black font-lato'>5</span>years of experience</p>
+        </div>
+        </div>
+
 
       </div>
     )
