@@ -7,6 +7,14 @@ import { LayoutPanelTop } from 'lucide-react';
 import { MessageCircleMore } from 'lucide-react';
 import { CalendarDays } from 'lucide-react';
 import { Target } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import card1 from '../assets/card1.png'
+import card2 from '../assets/card2.png'
+import card3 from '../assets/card3.png'
+import card4 from '../assets/card4.png'
+import card5 from '../assets/card5.png'
+import about3 from '../assets/about.png'
+
 
 
 export default class About extends Component {
@@ -85,6 +93,108 @@ export default class About extends Component {
 
           </div>
         </div>
+
+        <div>
+        <div className='text-center'>
+            <p className='text-[#1E212C] font-lato font-bold'>our main directions</p>
+            <h1 className='text-[#1E212C] text-[46px] font-black font-lato mt-[8px] mb-[60px]'>What do we teach</h1>
+          </div>
+
+          <div>
+            <div className='flex justify-between mb-[30px]'>
+              <div>
+              <img src={card1} alt="" />
+              <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
+              <span className='bg-[#03CEA4] p-[8px] rounded text-white font-lato font-bold'>Marketing</span>
+              <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              </div>
+              </div>
+              <div>
+              <img src={card2} alt="" />
+              <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
+              <span className='bg-[#5A87FC] p-[8px] rounded text-white font-lato font-bold'>Management</span>
+              <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              </div>
+              </div>
+              <div>
+              <img src={card3} alt="" />
+              <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
+              <span className='bg-[#F89828] p-[8px] rounded text-white font-lato font-bold'>HR & Recruting</span>
+              <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              </div>
+              </div>
+            </div>
+
+            <div className='flex justify-between mb-[180px]'>
+              <div>
+              <img src={card4} alt="" />
+              <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
+              <span className='bg-[#F52F6E] p-[8px] rounded text-white font-lato font-bold'>Design</span>
+              <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              </div>
+              </div>
+              <div>
+              <img src={card5} alt="" />
+              <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
+              <span className='bg-[#7772F1] p-[8px] rounded text-white font-lato font-bold'>Development</span>
+              <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              </div>
+              </div>
+
+                <div className='bg-[#F4F5F6] max-w-[390px] w-full h-420px flex justify-center items-center'>
+                <p className='font-lato font-bold text-[30px] text-center'>New studying program <br /> coming soon...</p>
+                </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div>
+        <div className='text-left mb-[60px]'>
+            <p className='text-[#1E212C] font-lato font-bold'>Studying process</p>
+            <h1 className='text-[#1E212C] text-[46px] font-black font-lato mt-[8px]'>That’s how we do it</h1>
+          </div>
+
+          <div className='flex justify-between items-center'>
+          <div className='ml-[40px]'>
+          <div className='max-w-[446px] w-full'>
+            <p className='text-[16px] text-[#787A80] font-lato font-black'>STEP 1</p>
+            <h3 className='text-[#1E212C] text-[25px] font-lato font-bold'>Watching online video lectures</h3>
+            <p className='text-[#787A80] mt-[8px] mb-[32px]'>Aliquam turpis viverra quam sit interdum blandit posuere pellentesque. Nisl, imperdiet gravida massa neque.</p>
+            </div>
+
+            <div className='max-w-[446px] w-full'>
+            <p className='text-[16px] text-[#787A80] font-lato font-black'>STEP 2</p>
+            <h3 className='text-[#1E212C] text-[25px] font-lato font-bold'>Passing test</h3>
+            <p className='text-[#787A80] mt-[8px] mb-[32px]'>Facilisis pellentesque quis accumsan ultricies. Eu egestas eget feugiat lacus, amet, sollicitudin egestas laoreet etiam. </p>
+            </div>
+
+            <div className='max-w-[446px] w-full'>
+            <p className='text-[16px] text-[#787A80] font-lato font-black'>STEP 3</p>
+            <h3 className='text-[#1E212C] text-[25px] font-lato font-bold'>Curator’s feedback</h3>
+            <p className='text-[#787A80] mt-[8px] mb-[32px]'>Eget amet, enim pharetra leo egestas nisi, odio imperdiet facilisis. Aliquet orci varius volutpat egestas facilisi lobortis. </p>
+            </div>
+
+            <div className='max-w-[446px] w-full'>
+            <p className='text-[16px] text-[#787A80] font-lato font-black'>STEP 4</p>
+            <h3 className='text-[#1E212C] text-[25px] font-lato font-bold'>Corrections if needed</h3>
+            <p className='text-[#787A80] mt-[8px] mb-[32px]'>Non tempor pulvinar tincidunt aliquam. Placerat ultricies malesuada dui auctor.</p>
+            </div>
+          </div>
+
+            <div>
+              <img src={about3} alt="" />
+            </div>
+          </div>
+        </div>
+
       </div>
     )
   }
