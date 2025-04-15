@@ -3,6 +3,11 @@ import React, { Component } from 'react'
 import human1 from '../assets/about_human1.png'
 import play from '../assets/hover.png'
 import about2 from '../assets/about_human2.png'
+import { LayoutPanelTop } from 'lucide-react';
+import { MessageCircleMore } from 'lucide-react';
+import { CalendarDays } from 'lucide-react';
+import { Target } from 'lucide-react';
+
 
 export default class About extends Component {
   render() {
@@ -26,7 +31,7 @@ export default class About extends Component {
         </div>
         </div>
 
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center mb-[180px]'>
         <div>
           <span className='flex items-center gap-[16px] mb-[32px]'>
             <img src={play} alt="" />
@@ -42,7 +47,44 @@ export default class About extends Component {
         </div>
         </div>
 
+        <div>
+          <div className='text-center'>
+            <p className='text-[#1E212C] font-lato font-bold'>We always stand for</p>
+            <h1 className='text-[#1E212C] text-[46px] font-black font-lato mt-[8px] mb-[60px]'>Our core values</h1>
+          </div>
 
+          <div className='flex justify-between mb-[180px]'>
+          <div className='max-w-[240px] w-full flex flex-col items-center'>
+            <span className='text-[#FF3F3A] mb-[24px]'>
+          <LayoutPanelTop />
+            </span>
+            <p className='mb-[8px] text-[20px] font-bold text-[#1E212C]'>Structured Approach</p>
+            <p className='text-[#787A80]'>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.</p>
+          </div>
+          <div className='max-w-[240px] w-full flex flex-col items-center'>
+            <span className='text-[#FF3F3A] mb-[24px]'>
+            <MessageCircleMore />
+            </span>
+            <p className='mb-[8px] text-[20px] font-bold text-[#1E212C]'>Professional Feedbacks</p>
+            <p className='text-[#787A80]'>Culpa nostrud commodo ea consequat reprehenderit aliquip. </p>
+          </div>
+          <div className='max-w-[240px] w-full flex flex-col items-center'>
+            <span className='text-[#FF3F3A] mb-[24px]'>
+          <Target />
+            </span>
+            <p className='mb-[8px] text-[20px] font-bold text-[#1E212C]'>Efficiency</p>
+            <p className='text-[#787A80]'>Viverra scelerisque consequat net. Adipisicing esse consequat. .</p>
+          </div>
+          <div className='max-w-[240px] w-full flex flex-col items-center'>
+            <span className='text-[#FF3F3A] mb-[24px]'>
+          <CalendarDays />
+            </span>
+            <p className='mb-[8px] text-[20px] font-bold text-[#1E212C]'>Flexible Shedule</p>
+            <p className='text-[#787A80]'>Aute eiusmod dolore dolore deserunt veniam ad deserunt. </p>
+          </div>
+
+          </div>
+        </div>
       </div>
     )
   }
