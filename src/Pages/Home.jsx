@@ -3,6 +3,8 @@ import Btn from '../assets/hover.png'
 import Illustration from '../assets/illustration.png'
 import { NavLink } from "react-router-dom";
 import WhoWeAre from '../Components/who_we_are';
+import FeaturedCourses from '../Components/FeaturedCourses';
+import OurBenefits from '../Components/Our_benefits'
 
 export default class Home extends Component {
   render() {
@@ -53,6 +55,8 @@ export default class Home extends Component {
         </div>
       </div>
         <WhoWeAre />
+        <FeaturedCourses/>
+        <OurBenefits/>
       </div>
     )
   }
