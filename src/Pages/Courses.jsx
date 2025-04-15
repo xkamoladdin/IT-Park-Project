@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Courseimg from '../assets/image.png';
+import loadingimg from '../assets/Convert.png';
 
 export default class Courses extends Component {
   render() {
@@ -25,29 +27,110 @@ export default class Courses extends Component {
                 <li>Development</li>
               </a>
             </ul>
-            <input className='border-2 border-gray-500 rounded-lg py-[11px] px-[16px] w-[315px]' type="search" name="" id="" placeholder='Search course...'/>
+            <input className='border-2 border-gray-500 rounded-lg py-[11px] px-[16px] w-[315px]' type="search" name="" id="" placeholder='Search course...' />
           </div>
 
           <div>
-            <div>
-              <div>
-                
+            <div className='flex justify-between'>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
               </div>
-              <div></div>
-              <div></div>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
             </div>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div className='flex justify-between py-[30px]'>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
             </div>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div className='flex justify-between'>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
+              <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
+                <img src={Courseimg} alt="" />
+                <div className='p-[24px]'>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='my-[80px]'>
+            <div className='flex justify-center items-center gap-[10px]'>
+              <img src={loadingimg} alt="" />
+              <a href="#">
+                <p>Load more</p>
+              </a>
             </div>
           </div>
         </div>
+
+        {/* Carousel */}
+
+
+
+        <section>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+        </section>
       </div>
     )
   }
