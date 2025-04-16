@@ -5,7 +5,10 @@ import { NavLink } from "react-router-dom";
 import WhoWeAre from '../Components/who_we_are';
 import FeaturedCourses from '../Components/FeaturedCourses';
 import OurBenefits from '../Components/Our_benefits';
+import OurEvents from '../Components/OurEvents';
+import Certificate from '../Components/Certificate';
 import { PlayCircle } from 'lucide-react';
+import FooterTop from '../Components/FooterTop'
 
 export default class Home extends Component {
   render() {
@@ -55,6 +58,9 @@ export default class Home extends Component {
         <WhoWeAre />
         <FeaturedCourses />
         <OurBenefits />
+        <OurEvents />
+        <Certificate />
+        <FooterTop />
       </div>
     );
   }

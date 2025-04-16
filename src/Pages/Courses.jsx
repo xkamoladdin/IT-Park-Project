@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import Courseimg from '../assets/image.png';
 import loadingimg from '../assets/Convert.png';
-import Strategy from '../assets/logo112.png';
-import Cunsulting from '../assets/logo (1).png';
-import National from '../assets/logo (2).png';
-import Certifcateimg from '../assets/certificate.png';
+import Certificate from '../Components/Certificate';
 import { NavLink } from "react-router-dom";
 
 export default class Courses extends Component {
@@ -130,34 +127,8 @@ export default class Courses extends Component {
 
 
 
-        <section>
-          <div className='container flex justify-between'>
-            <div>
-              <p className='font-bold'>Createx Certificate</p>
-              <h1 className='text-[46px] font-bold'>Your expertise will be confirmed</h1>
-              <p className='py-[48px]'>We are accredited by international professional <br /> organizations and institutes:</p>
-              <div className='flex justify-between items-center max-w-[395px] my-[32px]'>
-                <img className='w-[105px] h-[50px]' src={Strategy} alt="" />
-                <img className='w-[105px] h-[50px]' src={Cunsulting} alt="" />
-                <img className='w-[105px] h-[50px]' src={National} alt="" />
-              </div>
-            </div>
-            <div>
-              <img src={Certifcateimg} alt="" />
-            </div>
-          </div>
-        </section>
-        <section className='bg-[#FFC0CB] h-[564px]'>
-          <div className='container text-center w-[810px] py-[120px]'>
-            <h6 className='font-lato font-bold'>Don’t miss anything</h6>
-            <h1 className='font-lato font-bold text-[46px]'>Subscribe to the Createx School announcements</h1>
-            {/* <p></p> */}
-            <div className='py-[60px]'>
-              <input type="text" name="" id="" placeholder='Your working email'/>
-              <NavLink className='font-lato font-bold text-white px-[40px] leading-[52px] rounded bg-primary' to="/about" activeClassName="active">Get consultation</NavLink>
-            </div>
-          </div>
-        </section>
+       <Certificate/>
+
       </div>
     )
   }

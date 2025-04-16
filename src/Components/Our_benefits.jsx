@@ -3,7 +3,25 @@ import { Star, ThumbsUp, Layers, MessageCircleMore } from "lucide-react";
 import Benefit from '../assets/benefit.png';
 
 export default class OurBenefits extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedTitle: 'Only practicing tutors',
+    };
+  }
+
+  handleTitleChange = (title) => {
+    this.setState({ selectedTitle: title });
+  }
+
   render() {
+    const buttons = [
+      { icon: <Star size={20} />, text: 'Experienced Tutors' },
+      { icon: <ThumbsUp size={20} />, text: 'Feedback & Support' },
+      { icon: <Layers size={20} />, text: '24/7 Online Library' },
+      { icon: <MessageCircleMore size={20} />, text: 'Community' }
+    ];
+
     return (
       <div className='container py-8 md:py-12 px-4 sm:px-6 mb-16 md:mb-[120px]'>
         <div className='text-center mb-8 md:mb-[60px]'>
@@ -16,14 +34,10 @@ export default class OurBenefits extends Component {
         </div>
 
         <div className='flex flex-col sm:flex-row flex-wrap justify-center gap-4 md:gap-0 md:justify-between mb-12 md:mb-[60px]'>
-          {[
-            { icon: <Star size={20} />, text: 'Experienced Tutors' },
-            { icon: <ThumbsUp size={20} />, text: 'Feedback & Support' },
-            { icon: <Layers size={20} />, text: '24/7 Online Library' },
-            { icon: <MessageCircleMore size={20} />, text: 'Community' }
-          ].map((item, index) => (
+          {buttons.map((item, index) => (
             <button
               key={index}
+              onClick={() => this.handleTitleChange(item.text)}
               className='
                 px-4 py-3 sm:px-6 md:px-8 lg:px-[40px]
                 font-bold font-lato text-[#9A9CA5] 
@@ -44,7 +58,7 @@ export default class OurBenefits extends Component {
         <div className='flex flex-col lg:flex-row justify-between items-center gap-8 md:gap-12'>
           <div className='max-w-full lg:max-w-[495px]'>
             <h2 className='text-2xl sm:text-3xl md:text-[32px] font-bold font-lato text-[#1E212C] mb-4 md:mb-6'>
-              Only practicing tutors
+              {this.state.selectedTitle}
             </h2>
             <p className='font-lato text-[#424551] text-base md:text-lg'>
               Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.
