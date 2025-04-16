@@ -61,8 +61,8 @@ export default class Home extends Component {
         <OurBenefits />
         <OurEvents />
         <Certificate />
-        <FooterTop />
         <Carousel />
+        <FooterTop />
       </div>
     );
   }
