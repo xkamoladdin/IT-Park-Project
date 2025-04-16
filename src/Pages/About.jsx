@@ -14,6 +14,9 @@ import card3 from '../assets/card3.png'
 import card4 from '../assets/card4.png'
 import card5 from '../assets/card5.png'
 import about3 from '../assets/about.png'
+import human from '../assets/human.png'
+import logo from '../assets/aboutlogo.png'
+import { NavLink } from "react-router-dom";
 
 
 
@@ -107,7 +110,7 @@ export default class About extends Component {
               <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
               <span className='bg-[#03CEA4] p-[8px] rounded text-white font-lato font-bold'>Marketing</span>
               <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
-              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              <NavLink exact to="/courses" activeClassName="active" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></NavLink>
               </div>
               </div>
               <div>
@@ -115,7 +118,7 @@ export default class About extends Component {
               <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
               <span className='bg-[#5A87FC] p-[8px] rounded text-white font-lato font-bold'>Management</span>
               <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
-              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              <NavLink exact to="/courses" activeClassName="active" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></NavLink>
               </div>
               </div>
               <div>
@@ -123,7 +126,7 @@ export default class About extends Component {
               <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
               <span className='bg-[#F89828] p-[8px] rounded text-white font-lato font-bold'>HR & Recruting</span>
               <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
-              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              <NavLink exact to="/courses" activeClassName="active" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></NavLink>
               </div>
               </div>
             </div>
@@ -134,7 +137,11 @@ export default class About extends Component {
               <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
               <span className='bg-[#F52F6E] p-[8px] rounded text-white font-lato font-bold'>Design</span>
               <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
-              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              <NavLink exact to="/courses" activeClassName="active" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></NavLink>
+
+
+
+
               </div>
               </div>
               <div>
@@ -142,7 +149,7 @@ export default class About extends Component {
               <div className='max-w-[390px] w-full p-[24px] border-[1px] rounded'>
               <span className='bg-[#7772F1] p-[8px] rounded text-white font-lato font-bold'>Development</span>
               <p className='text-[#787A80] font-lato mt-[20px] mb-[20px]'>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
-              <a href="#!" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></a>
+              <NavLink exact to="/courses" activeClassName="active" className='flex gap-[8px] font-lato font-bold'>Check courses <ArrowRight className='text-[#FF3F3A]'/></NavLink>
               </div>
               </div>
 
@@ -194,6 +201,88 @@ export default class About extends Component {
             </div>
           </div>
         </div>
+
+        <div>
+        <div className='text-center mt-[180px] mb-[60px]'>
+            <p className='text-[#1E212C] font-lato font-bold'>Best tutors are all here</p>
+            <h1 className='text-[#1E212C] text-[46px] font-black font-lato mt-[8px]'>Meet our team</h1>
+          </div>
+
+          <div className='flex gap-[30px] mb-[60px]'>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+
+          </div>
+
+          <div className='flex gap-[30px] mb-[120px]'>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+          <div className='text-center'>
+          <img src={human} alt="" />
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          </div>
+
+          </div>
+        </div>
+
+          <div>
+          <div className='text-center mt-[180px] mb-[60px]'>
+            <p className='text-[#1E212C] font-lato font-bold'>best jobs for you</p>
+            <h1 className='text-[#1E212C] text-[46px] font-black font-lato mt-[8px]'>Our students work here</h1>
+          </div>
+
+          <div>
+            <div className='flex justify-between mb-[40px]'>
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+
+            </div>
+
+            <div className='flex justify-between'>
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+
+            </div>
+          </div>
+          </div>
 
       </div>
     )
