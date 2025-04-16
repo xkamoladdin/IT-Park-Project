@@ -17,16 +17,7 @@ import about3 from '../assets/about.png'
 import human from '../assets/human.png'
 import logo from '../assets/aboutlogo.png'
 import { NavLink } from "react-router-dom";
-
-
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import av from '../assets/av.png'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import Testimon from "../Components/Testimon.jsx"
 
 
 
@@ -267,6 +258,8 @@ export default class About extends Component {
 
           </div>
         </div>
+
+          <Testimon/>
 
           <div>
           <div className='text-center mt-[180px] mb-[60px]'>
