@@ -10,6 +10,7 @@ import Certificate from '../Components/Certificate';
 import { PlayCircle } from 'lucide-react';
 import FooterTop from '../Components/FooterTop'
 import Carousel from '../Components/Carousel1';
+import OurBlog from '../Components/OurBlog';
 
 export default class Home extends Component {
   render() {
@@ -63,6 +64,7 @@ export default class Home extends Component {
         <Certificate />
         <FooterTop />
         <Carousel />
+        <OurBlog />
       </div>
     );
   }

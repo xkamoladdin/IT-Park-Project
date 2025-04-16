@@ -139,11 +139,11 @@ export default class TeamCarousel extends Component {
             <SwiperSlide key={index} className="w-[1020px]">
               <div className="max-w-[1020px] mx-auto bg-white py-[64px] px-[104px]">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
-                <span>
+                <span className='flex gap-[20px] items-center mt-6'>
                     <img src={Av} alt="" />
                     <span>
-                        <h3>Eleanor Pena</h3>
-                        <p>Position, Course</p>
+                        <h3 className='font-bold font-lato mb-1'>Eleanor Pena</h3>
+                        <p className='text-[#787A80]'>Position, Course</p>
                     </span>
                 </span>
               </div>
