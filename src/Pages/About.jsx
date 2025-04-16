@@ -20,6 +20,17 @@ import { NavLink } from "react-router-dom";
 
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import av from '../assets/av.png'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+
+
+
 export default class About extends Component {
   render() {
     return (
@@ -285,6 +296,7 @@ export default class About extends Component {
           </div>
 
       </div>
+
     )
   }
 }
