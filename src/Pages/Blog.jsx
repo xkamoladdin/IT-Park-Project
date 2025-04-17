@@ -69,7 +69,7 @@ export default class Blog extends Component {
             </div>
             <div className='flex justify-between my-[60px]'>
               <div className='w-[705px] h-[507px]'>
-                <img src={Glasess} alt="" />
+                <img src={Glasess} alt="photo" />
                 <div className='py-[16px]'>
                   <p className='text-[#424551]'>Marketing | September 4, 2020 | 36 min</p>
                   <h1 className='py-[8px] text-[#1E212C] text-[20px] font-bold'>What is traffic arbitrage and does it really make money?</h1>
