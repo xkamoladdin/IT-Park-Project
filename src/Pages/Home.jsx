@@ -8,7 +8,7 @@ import OurBenefits from '../Components/Our_benefits';
 import OurEvents from '../Components/OurEvents';
 import Certificate from '../Components/Certificate';
 import { PlayCircle } from 'lucide-react';
-import FooterTop from '../Components/FooterTop'
+import FooterTop from '../Components/FooterTop';
 import Carousel from '../Components/Carousel1';
 import OurBlog from '../Components/OurBlog';
 
@@ -20,7 +20,9 @@ export default class Home extends Component {
           <div className='container flex flex-col lg:flex-row justify-between items-center gap-10'>
             <div className='text-center lg:text-left'>
               <span className='flex justify-center lg:justify-start items-center pb-[24px] gap-2'>
-                <PlayCircle className='text-[#FF3F3A]' />
+                <button aria-label="Play showreel" className="text-[#FF3F3A]">
+                  <PlayCircle />
+                </button>
                 <p className='text-[14px] text-[#1E212C] font-bold'>Play showreel</p>
               </span>
               <h2 className='text-[32px] sm:text-[40px] md:text-[56px] lg:text-[64px] text-[#1E212C] font-bold max-w-[496px] w-full pb-[30px] mx-auto lg:mx-0'>
@@ -36,19 +38,19 @@ export default class Home extends Component {
               </div>
             </div>
 
-            <div>
-              <img src={Illustration} alt="Illustration" className='max-w-full h-auto' />
+            <div className='mt-8 lg:mt-0'>
+              <img src={Illustration} alt="Illustration of a student studying" className='max-w-full h-auto' />
             </div>
           </div>
 
-          <div className='container mt-[80px] lg:mt-[150px] mb-[60px] flex justify-between text-center'>
-            {[
-              { num: "1200", label: "Students graduated" },
-              { num: "84", label: "Completed courses" },
-              { num: "16", label: "Qualified tutors" },
-              { num: "5", label: "Years of experience" }
+          <div className='container mt-[80px] lg:mt-[150px] mb-[60px] flex flex-wrap justify-between text-center'>
+            {[ 
+              { num: "1200", label: "Students graduated" }, 
+              { num: "84", label: "Completed courses" }, 
+              { num: "16", label: "Qualified tutors" }, 
+              { num: "5", label: "Years of experience" } 
             ].map((item, i) => (
-              <div key={i} className='flex items-center'>
+              <div key={i} className='flex items-center flex-wrap mb-6 lg:mb-0'>
                 <h2 className='text-[36px] sm:text-[42px] font-bold font-lato text-[#1E212C]'>{item.num}</h2>
                 <p className='font-lato text-[#1E212C] ml-3'>{item.label}</p>
                 <span className='w-2 h-2 bg-[#FF3F3A] rounded-md ml-[66px]'></span>
