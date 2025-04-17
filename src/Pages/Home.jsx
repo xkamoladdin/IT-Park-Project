@@ -38,22 +38,22 @@ export default class Home extends Component {
               </div>
             </div>
 
-            <div className='w-full max-w-[500px] lg:max-w-full'>
+            <div className='mt-8 lg:mt-0'>
               <img src={Illustration} alt="Illustration of a student studying" className='max-w-full h-auto' />
             </div>
           </div>
 
-          <div className='container mt-[80px] lg:mt-[150px] mb-[60px] flex flex-col sm:flex-row justify-between text-center'>
+          <div className='container mt-[80px] lg:mt-[150px] mb-[60px] flex flex-wrap justify-between text-center'>
             {[ 
               { num: "1200", label: "Students graduated" }, 
               { num: "84", label: "Completed courses" }, 
               { num: "16", label: "Qualified tutors" }, 
               { num: "5", label: "Years of experience" } 
             ].map((item, i) => (
-              <div key={i} className='flex items-center justify-center flex-wrap mb-4 sm:mb-0'>
+              <div key={i} className='flex items-center flex-wrap mb-6 lg:mb-0'>
                 <h2 className='text-[36px] sm:text-[42px] font-bold font-lato text-[#1E212C]'>{item.num}</h2>
                 <p className='font-lato text-[#1E212C] ml-3'>{item.label}</p>
-                <span className='w-2 h-2 bg-[#FF3F3A] rounded-md ml-4'></span>
+                <span className='w-2 h-2 bg-[#FF3F3A] rounded-md ml-[66px]'></span>
               </div>
             ))}
           </div>
