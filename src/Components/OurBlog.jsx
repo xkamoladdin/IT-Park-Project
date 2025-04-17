@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
 import OurBlog1 from '../assets/ourblog1.png';
+import OurBlog2 from '../assets/ourblog2.png';
+import OurBlog3 from '../assets/ourblog3.png';
 import { MoveRight } from 'lucide-react';
 
 export default class OurBlog extends Component {
@@ -22,7 +24,7 @@ export default class OurBlog extends Component {
         title: "What to do and who to talk to if you want to get feedback on the product",
         description: "Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...",
         cta: "Watch",
-        image: OurBlog1,
+        image: OurBlog2,
       },
       {
         category: "Design",
@@ -30,7 +32,7 @@ export default class OurBlog extends Component {
         title: "Should you choose a creative profession if you are attracted to creativity?",
         description: "Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...",
         cta: "Read",
-        image: OurBlog1,
+        image: OurBlog3,
       },
     ];
 

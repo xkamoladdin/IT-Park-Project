@@ -26,6 +26,7 @@ import OurBlog from '../Components/OurBlog'
 export default class About extends Component {
   render() {
     return (
+      <div>
       <div className='container'>
 
 
@@ -214,8 +215,8 @@ export default class About extends Component {
           <div className='flex gap-[30px] mb-[60px]'>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Dianne Russell</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Founder and CEO</p>
           </div>
           <div className='text-center'>
           <img src={human} alt="" />
@@ -224,13 +225,13 @@ export default class About extends Component {
           </div>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Kristin Watson</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Marketer, Curator of Marketing Course</p>
           </div>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Marvin McKinney</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>PM, Curator of Management Course</p>
           </div>
 
           </div>
@@ -238,23 +239,23 @@ export default class About extends Component {
           <div className='flex gap-[30px] mb-[120px]'>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Leslie Alexander Li</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Curator of HR & Recruting Course</p>
           </div>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Kathryn Murphy</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Analyst and Marketing specialist</p>
           </div>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Brooklyn Simmons</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>Curator of Development Course</p>
           </div>
           <div className='text-center'>
           <img src={human} alt="" />
-          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Jerome Bell</p>
-          <p className='text-[#787A80] text-[16px] font-lato'>Founder and Program Director</p>
+          <p className='text-[#424551] text-[20px] font-lato font-bold mt-[8px] mb-[8px]'>Cody Fisher</p>
+          <p className='text-[#787A80] text-[16px] font-lato'>UX Designer, Curator of Design Course</p>
           </div>
 
           </div>
@@ -263,9 +264,10 @@ export default class About extends Component {
 
 
 
+      </div>
           <div className='bg-[#F4F5F6]'>
           <Testimon/>
-          <div>
+          <div className='container'>
           <div className='text-center mt-[180px] mb-[60px]'>
             <p className='text-[#1E212C] font-lato font-bold'>best jobs for you</p>
             <h1 className='text-[#1E212C] text-[46px] font-black font-lato mt-[8px]'>Our students work here</h1>
@@ -292,7 +294,10 @@ export default class About extends Component {
           </div>
           </div>
           </div>
+
+          <div className='container'>
           <OurBlog/>
+          </div>
           <FooterTop/>
       </div>
 
