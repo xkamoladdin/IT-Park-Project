@@ -45,7 +45,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={Courseimg} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[6px] rounded-[4px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>The Ultimate Google Ads Training Course</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
                 </div>
@@ -53,7 +53,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={ProManagemant} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#5A87FC] w-[98px] text-[#fff] px-[6px] rounded-[4px]'>Management</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Prduct Management Fundamentals</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$480</span> | by Marvin McKinney</p>
                 </div>
@@ -61,7 +61,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={HRManagement} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#F89828] w-[111px] text-[#fff] px-[6px]rounded-[4px]'>HR & Recruting</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>HR  Management and Analytics</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$200</span> | by Leslie Alexander Li</p>
                 </div>
@@ -71,7 +71,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={brandMarketing} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[6px] rounded-[4px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Brand Management & PR Communications</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$530</span> | by Kristin Watson</p>
                 </div>
@@ -79,7 +79,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={GraphDesign} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#F52F6E] w-[80px] text-[#fff] px-[6px] rounded-[4px]'>Design</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Graphic Design Basic</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$500</span> | by Guy Hawkins</p>
                 </div>
@@ -87,7 +87,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={BusinessM} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#5A87FC] w-[98px] text-[#fff] px-[6px] rounded-[4px]'>Management</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Business Development Management</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$400</span> | by Dianne Russell</p>
                 </div>
@@ -97,7 +97,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={Developmentimg} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#7772F1] w-[99px] text-[#fff] px-[6px] rounded-[4px]'>Development</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Highload Software Architecture</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$600</span> | by Brooklyn Simmons</p>
                 </div>
@@ -105,7 +105,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={HRHuman} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#F89828] w-[111px] text-[#fff] px-[6px] rounded-[4px]'>HR & Recruting</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Human Resources – Selection and Recruitment</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$150</span> | by Kathryn Murphy</p>
                 </div>
@@ -113,7 +113,7 @@ export default class Courses extends Component {
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
                 <img src={UserDesign} alt="" />
                 <div className='p-[24px]'>
-                  <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
+                  <p className='bg-[#F52F6E] w-[80px] text-[#fff] px-[6px] rounded-[4px]'>Design</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>User Experience. Human-centered Design</h2>
                   <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$240</span> | by Cody Fisher</p>
                 </div>
