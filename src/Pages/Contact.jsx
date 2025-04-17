@@ -7,7 +7,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        {/* <div className="container">
+        <div className="container">
           <div className='flex justify-between items-center'>
             <div>
                <h6 className='font-bold font-lato'>Contact info</h6>
@@ -31,9 +31,9 @@ export default class Contact extends Component {
               </div>
             </section>
           </main>
-        </div> */}
+        </div>
 
-       <div className="container">
+       {/* <div className="container">
           <div className='flex justify-between my-[80px]'>
             <div>
                <h6 className='font-bold'>Contact info</h6>
@@ -100,7 +100,7 @@ export default class Contact extends Component {
               </div>
             </section>
           </main>
-        </div>
+        </div> */}
       </div>
     )
   }
