@@ -6,7 +6,7 @@ export default class FooterTop extends Component {
   render() {
     return (
       <div className="bg-pink-200 w-full">
-        <div className="container mx-auto text-center px-4">
+        <div className="mx-auto text-center px-4">
           <div className="py-16 md:py-[120px]">
             <h6 className="text-[#1E212C] font-bold text-base md:text-lg">Don’t miss anything</h6>
             <h1 className="text-[#1E212C] font-bold text-2xl md:text-[46px] leading-tight mt-4">
