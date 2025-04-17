@@ -31,7 +31,7 @@ function Navigation() {
         <NavLink className='font-lato font-bold text-white px-[40px] leading-[52px] rounded bg-primary' to="/about" activeClassName="active">
           Get consultation
         </NavLink>
-        <NavLink className='font-lato font-bold text-[#424551]' to="/login" activeClassName="active">
+        <NavLink className='font-lato font-bold text-[#424551]' to="/signin" activeClassName="active">
           Log in / Register
         </NavLink>
       </span>

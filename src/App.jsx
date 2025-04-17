@@ -9,6 +9,7 @@ import Events from "./Pages/Events";
 import Blog from "./Pages/Blog";
 import NotFound from "./Pages/NotFound";
 import EventGridView from "./Pages/EventGridView";
+import SignIn from "./Pages/SignIn";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/events" element={<Events />} />
         <Route path="/blog" element={<Blog />} />
+        
+        <Route path="/signin" element={<SignIn />} />
         <Route path="/eventgridview" element={<EventGridView />} />
         {/* 404 sahifa uchun */}
         <Route path="*" element={<NotFound />} />
