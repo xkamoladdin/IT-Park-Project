@@ -17,8 +17,9 @@ import about3 from '../assets/about.png'
 import human from '../assets/human.png'
 import logo from '../assets/aboutlogo.png'
 import { NavLink } from "react-router-dom";
-import Testimon from "../Components/Testimon.jsx"
-
+import Testimon from '../Components/Testimon';
+import FooterTop from '../Components/FooterTop'
+import OurBlog from '../Components/OurBlog'
 
 
 
@@ -259,8 +260,11 @@ export default class About extends Component {
           </div>
         </div>
 
-          <Testimon/>
 
+
+
+          <div className='bg-[#F4F5F6]'>
+          <Testimon/>
           <div>
           <div className='text-center mt-[180px] mb-[60px]'>
             <p className='text-[#1E212C] font-lato font-bold'>best jobs for you</p>
@@ -287,7 +291,9 @@ export default class About extends Component {
             </div>
           </div>
           </div>
-
+          </div>
+          <OurBlog/>
+          <FooterTop/>
       </div>
 
     )
