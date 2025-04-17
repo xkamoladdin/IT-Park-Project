@@ -55,7 +55,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Prduct Management Fundamentals</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$480</span> | by Marvin McKinney</p>
                 </div>
               </div>
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
@@ -63,7 +63,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>HR  Management and Analytics</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$200</span> | by Leslie Alexander Li</p>
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Brand Management & PR Communications</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$530</span> | by Kristin Watson</p>
                 </div>
               </div>
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
@@ -81,7 +81,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Graphic Design Basic</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$500</span> | by Guy Hawkins</p>
                 </div>
               </div>
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
@@ -89,7 +89,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Business Development Management</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$400</span> | by Dianne Russell</p>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Highload Software Architecture</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$600</span> | by Brooklyn Simmons</p>
                 </div>
               </div>
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
@@ -107,7 +107,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>Human Resources – Selection and Recruitment</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$150</span> | by Kathryn Murphy</p>
                 </div>
               </div>
               <div className='w-[390px] h-[438px] bg-[#9A9CA50A]'>
@@ -115,7 +115,7 @@ export default class Courses extends Component {
                 <div className='p-[24px]'>
                   <p className='bg-[#03CEA4] w-[80px] text-[#fff] px-[5px] py-[1px]'>Marketing</p>
                   <h2 className='text-[#1E212C] text-[20px] font-bold py-[20px]'>User Experience. Human-centered Design</h2>
-                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$100</span> | by Jerome Bell</p>
+                  <p className='text-[#787A80] text-[18px]'><span className='text-[#FF4242] py-[20px] font-bold'>$240</span> | by Cody Fisher</p>
                 </div>
               </div>
             </div>
